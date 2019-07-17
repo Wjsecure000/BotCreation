@@ -8,7 +8,7 @@ from chatterbot.trainers import ListTrainer
 bot.set_trainer(ListTrainer)
 # Training 
 bot.train(['What is your name?', 'My name is Enoch'])
-bot.train(['Who are you?', 'I am a bot, created by the grand creator William' ])
+bot.train(['Who are you?', 'I am a bot, created by the creator William' ])
 bot.train(['Do you know me?', 'Yes, you created me', 'No', 'Sahil?', 'No idea'])
 from chatterbot.trainers import ChatterBotCorpusTrainer
 # Create a new trainer for the chatbot
